@@ -14,7 +14,7 @@ public class OrderControllerV2 {
     private final OrderServiceV2 orderService;
     private final HelloTraceV2 trace;
 
-    @GetMapping("/V2/request")
+    @GetMapping("/v2/request")
     public String request(String itemId) {
 
         TraceStatus status = null;
